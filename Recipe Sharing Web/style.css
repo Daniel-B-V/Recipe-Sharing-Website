@@ -155,6 +155,109 @@ nav ul li{
     text-transform: uppercase;
 }
 
+.footer {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+.email-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signup-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-form input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.email-form button {
+    padding: 8px 15px;
+    background-color: #ffcb47;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.email-form button:hover {
+    background-color: #e5b23a;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ffcb47;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .email-signup {
+        align-items: center;
+    }
+}
+
 @media (max-width: 768px) {
     .flex-item img {
         height: 75%;
