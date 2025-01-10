@@ -107,7 +107,7 @@ nav ul li a:hover {
 .bg-food {
     width: 100%;
     min-height: 750px;
-    background: url(images/background-food.png) no-repeat center center;
+    background: url(images/background-food\ \(1\).png) no-repeat center center;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
