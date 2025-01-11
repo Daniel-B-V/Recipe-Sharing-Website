@@ -31,13 +31,17 @@ header {
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
+    font-weight: bold;
 }
 
 nav ul li {
@@ -107,7 +111,7 @@ nav ul li a:hover {
 .bg-food {
     width: 100%;
     min-height: 750px;
-    background: url(images/background-food.png) no-repeat center center;
+    background: url(images/background-food\ \(1\).png) no-repeat center center;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
