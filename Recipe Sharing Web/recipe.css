@@ -241,3 +241,28 @@ header {
     font-size: 0.8rem;
     margin-right: 0.5rem;
 }
+
+.rights-reserved {
+    text-align: center;
+    padding: 20px;
+    background-color: #050000;
+    margin-top: 0;
+}
+
+.rights-reserved p {
+    margin: 0;
+}
+
+footer {
+    background-color: #000; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #000; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
