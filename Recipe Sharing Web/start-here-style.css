@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.main-content {
+    position: relative;
+    padding: 60px;
+    height: 80vh;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.background-image {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    width: 90%;
+    max-width: 600px;
+}
+
+.overlay h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overlay .button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    background-color: #ffcb47;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.blog-content {
+    background-color: #f9f4ee; /* Soft, warm background color */
+    padding: 50px 20px;
+    font-family: 'Dancing Script', cursive; /* Elegant font for the section */
+    line-height: 1.8;
+    color: #333; /* Dark text color for readability */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.blog-content h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: black; /* A vibrant color to draw attention */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-content h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: red; /* Calming accent color */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.blog-content p {
+    font-family: 'Open Sans', sans-serif; /* Clean and modern font */
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.blog-content .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog-content .image-container img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-content .image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-content .text-container {
+    padding: 20px;
+    color: black;
+}
+
+.blog-content .text-container p:last-child {
+    font-style: italic;
+    color: black;
+}
+
+
+.rights-reserved {
+    text-align: center;
+    padding: 20px;
+    background-color: #050000;
+    margin-top: 0;
+}
+
+.rights-reserved p {
+    margin: 0;
+    color: white;
+}
