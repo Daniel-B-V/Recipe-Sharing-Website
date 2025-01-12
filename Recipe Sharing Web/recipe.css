@@ -191,14 +191,14 @@ header {
 .categories-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem; /* Adds spacing between sections */
+    gap: 1.5rem; 
     margin: 2rem auto;
-    max-width: 900px; /* Centers content */
+    max-width: 900px; 
     font-family: 'Arial', sans-serif;
 }
 
 .category-group {
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     border-bottom: 1px solid #ccc; 
 }
 
@@ -260,9 +260,4 @@ footer {
     text-align: center;
 }
 
-.footer {
-    background-color: #000; 
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
+
