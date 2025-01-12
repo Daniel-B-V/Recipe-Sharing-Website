@@ -13,23 +13,23 @@ body {
 
 .main-content {
     position: relative;
-    padding: 100px;
-    height: 100vh;
+    padding: 60px;
+    height: 80vh;
     overflow: hidden;
     text-align: center;
     color: white;
 }
 
 .background-image {
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
     object-fit: cover;
 }
 
 .overlay {
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     text-align: left;
     color: white;
@@ -38,26 +38,22 @@ body {
 }
 
 .overlay h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .overlay .button {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
-    color: white;
-    background-color: #d9534f;
+    color: black;
+    background-color: #ffcb47;
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-}
-
-.overlay .button:hover {
-    background-color: #ff9800;
 }
 
 .blog-content {
@@ -73,17 +69,17 @@ body {
 }
 
 .blog-content h2 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 2.5rem;
-    color: #d9534f; /* A vibrant color to draw attention */
+    color: black; /* A vibrant color to draw attention */
     margin-bottom: 20px;
     text-align: center;
 }
 
 .blog-content h4 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 1.8rem;
-    color: #5bc0de; /* Calming accent color */
+    color: red; /* Calming accent color */
     margin-bottom: 15px;
     text-align: center;
 }
