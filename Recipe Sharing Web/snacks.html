@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="snacks-style.css">
+    <title>Snacks</title>
+</head>
+<body>
+ 
+    <header>
+        <div class="nav">
+            <a href="index.html" class="logo">PinayYum</a>
+            <nav>
+                <div class="menu-icon">&#9776;</div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="food-recipes.html">Food Recipes</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="start-here.html">Start Here</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Snacks Favorites!</h1>
+        <h3>"Start your day with the rich flavors of a traditional Filipino breakfast, where every bite brings a taste of home and warmth."</h3>
+        <div class="food-grid">
+            <div class="food-item" data-recipe="lumpiang shanghai">
+                <div class="image-wrapper">
+                    <img src="images/lumpiang shanghai.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Champorado</h2>
+            </div>
+            <div class="food-item" data-recipe="turon">
+                <div class="image-wrapper">
+                    <img src="images/turon.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Longsilog</h2>
+            </div>
+            <div class="food-item" data-recipe="banana cue">
+                <div class="image-wrapper">
+                    <img src="images/banana cue.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Tapsilog</h2>
+            </div>
+            <div class="food-item" data-recipe="bibingka">
+                <div class="image-wrapper">
+                    <img src="images/bibingka.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Tocilog</h2>
+            </div>
+            <div class="food-item" data-recipe="puto">
+                <div class="image-wrapper">
+                    <img src="images/puto.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Pandesal</h2>
+            </div>
+            <div class="food-item" data-recipe="kwek-kwek">
+                <div class="image-wrapper">
+                    <img src="images/kwek-kwek.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Bangsilog</h2>
+            </div>
+            <div class="food-item" data-recipe="taho">
+                <div class="image-wrapper">
+                    <img src="images/taho.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Filipino Style Sandwich</h2>
+            </div>
+            <div class="food-item" data-recipe="empanada">
+                <div class="image-wrapper">
+                    <img src="images/empanada.jpg" alt="Food Image">
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+                <h2>Hotsilog</h2>
+            </div>
+        </div>        
+    </main>
+
+    <section class="find-recipes">
+        <h2>Find More Recipes</h2>
+        <div class="search-bar">
+            <div class="input-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="I'm craving..." />
+            </div>
+            <button>Search</button>
+        </div>
+    </section>
+    
+    <section class="rights-reserved">
+        <p>&copy; 2025 PinayYum. All rights reserved.</p>
+    </section>
+
+    <div class="recipe-modal" id="recipeModal">
+        <div class="recipe-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="recipeTitle">Recipe Title</h2>
+            <p id="recipeInstructions">Recipe instructions and ingredients will go here...</p>
+        </div>
+    </div>
+
+    <script src="snacks-script.js"></script>
+    
+</body>
+</html>
