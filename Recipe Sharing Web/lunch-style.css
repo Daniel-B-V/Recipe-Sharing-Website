@@ -188,6 +188,25 @@ h3 {
     transition: filter 0.3s ease, transform 0.3s ease;
 }
 
+.view-all-recipes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px; 
+}
+
+.view-all-recipes button {
+    background-color: #ffcb47;
+    color: #000000;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .view-recipe-btn {
     position: absolute;
     top: 50%;
@@ -305,61 +324,4 @@ h3 {
 
 .search-bar button:hover {
     background-color: #e0a800;
-}
-
-@media only screen and (max-width: 1200px) {
-    .food-grid {
-        grid-template-columns: repeat(3, 1fr); 
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .food-grid {
-        grid-template-columns: repeat(2, 1fr); 
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .food-grid {
-        grid-template-columns: 1fr; 
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .menu-icon {
-        display: none;
-    }
-
-    .nav-list {
-        display: flex;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .menu-icon {
-        display: block;
-    }
-
-    .nav-list {
-        display: none;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background: black;
-        width: 100%;
-        padding: 20px 0;
-        text-align: center;
-    }
-
-    .nav-list li {
-        margin: 15px 0;
-    }
-
-    .nav-list li a {
-        font-size: 1.2rem;
-    }
-
-    .nav-list.active {
-        display: block;
-    }
 }
