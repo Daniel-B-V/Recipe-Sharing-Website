@@ -30,7 +30,7 @@ const recipes = {
         `
     },
     sinigang: {
-        title: "Longsilog",
+        title: "Sinigang",
         instructions: `
             <h3>Ingredients:</h3>
             <ul>
