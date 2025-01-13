@@ -207,6 +207,97 @@ h3 {
     font-weight: bold;
 }
 
+.view-all-recipes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px; 
+}
+
+.view-all-recipes button {
+    background-color: #ffcb47;
+    color: #000000;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.as-seen-in {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.as-seen-in h2 {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+
+.logo-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.logo-grid img {
+    max-width: 120px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.winter-videos {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.winter-videos h2 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    flex: 1 1 calc(40% - 20px); 
+    max-width: calc(40% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.video-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
 .recipe-modal {
     display: none;
     position: fixed;

@@ -207,6 +207,25 @@ h3 {
     font-weight: bold;
 }
 
+.view-all-recipes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px; 
+}
+
+.view-all-recipes button {
+    background-color: #ffcb47;
+    color: #000000;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .recipe-modal {
     display: none;
     position: fixed;
